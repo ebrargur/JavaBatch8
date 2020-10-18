@@ -43,11 +43,14 @@ break;
 		case "June":
 		case "July":
 		case "August":
-		case "September":
 			System.out.println("Summer");
 break;
 
-
+int time=10;
+while(time>12)
+	 System.out.println("good day");
+time--;
+}
 		}
 		
 	}
