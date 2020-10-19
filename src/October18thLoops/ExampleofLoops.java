@@ -21,7 +21,7 @@ public class ExampleofLoops {
         	   System.out.println("Water is expensive, please insert more money");
               // money=input.nextInt();  	   }
 
-    	   }           money=input.nextInt();  	   
+    	   }        //   money=input.nextInt();  	   
 
        }    	   
        System.out.println("Enjoy your water");
