@@ -34,7 +34,7 @@ public class task2 {
 			}
 			else if(amount>price)
 			{
-				System.out.println("You need to pay " + (amount - price));
+				System.out.println("You need to pay $" + (amount - price));
                   break;
 				
 			}
