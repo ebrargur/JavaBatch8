@@ -1,4 +1,4 @@
-package October20thArrays;
+package October20thPatternsandArrays;
 
 public class NestedloopsExamples {
 
