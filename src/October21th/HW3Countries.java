@@ -1,6 +1,5 @@
 package October21th;
 
-import java.util.Arrays;
 
 public class HW3Countries {
 
