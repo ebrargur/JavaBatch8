@@ -14,15 +14,15 @@ public class Task4 {
 				
 		};
 				int sum=0;
-
+int sum2=0;
 				for(String[] CountryArray:countries)
 				{
 					
 					for(String count:CountryArray)
 					{
 						
-						System.out.print(count+"   ");
-
+						System.out.print(count+".   ");
+sum2++;
 						
 					}		
 
@@ -32,6 +32,7 @@ public class Task4 {
 				}		
 
 				System.out.println("Regular Loop---------------");
+				
 		for(int i=0;i<countries.length; i++)
 				{
 					
@@ -46,7 +47,8 @@ public class Task4 {
 				}
 		System.out.println("There are "+sum+" countries");
 		
-	
+		System.out.println("There are "+sum2+" countries");
+
 	}
 
 }
