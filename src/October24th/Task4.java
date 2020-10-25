@@ -6,7 +6,7 @@ public class Task4 {
 		// Countries by continent
 
 		String[][] countries= {
-				{"Argentina","Brazil"},
+				{"Argentina","Brazil","USA"},
 				{"Cuba","Mexico","Jamaica"},
 				{"Algeria","Benin","Chad","congo"},
 				{"Afghanistan","India","PAkistan"},
@@ -45,11 +45,11 @@ public class Task4 {
 				}
 		System.out.println("There are  "+countries.length+ " different continents");
 		System.out.println("Countries by number of row");
-		System.out.println("1st row : " + countries[0].length); 
-        System.out.println("2nd row : " + countries[1].length);
-        System.out.println("3rd row : " + countries[2].length);    
-        System.out.println("4th row : " + countries[3].length);
-        System.out.println("5th row : " + countries[4].length); 
+		System.out.println("South America : " + countries[0].length); 
+        System.out.println("North America : " + countries[1].length);
+        System.out.println("Africa : " + countries[2].length);    
+        System.out.println("Asia: " + countries[3].length);
+        System.out.println("Europe : " + countries[4].length); 
 	}
 
 }
