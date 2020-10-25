@@ -13,7 +13,7 @@ public class Task4 {
 				{"Albania","Cyprus","Germany"}
 				
 		};
-				
+				int sum=0;
 
 				for(String[] CountryArray:countries)
 				{
@@ -38,18 +38,15 @@ public class Task4 {
 					for(int j=0;j<countries[i].length;j++) {
 						
 						System.out.print(countries[i][j]+" ");
-					}
+						
+					}sum=sum+countries[i].length;
 					System.out.println();
 					System.out.println();
 
 				}
-		System.out.println("There are  "+countries.length+ " different continents");
-		System.out.println("Countries by number of row");
-		System.out.println("South America : " + countries[0].length); 
-        System.out.println("North America : " + countries[1].length);
-        System.out.println("Africa : " + countries[2].length);    
-        System.out.println("Asia: " + countries[3].length);
-        System.out.println("Europe : " + countries[4].length); 
+		System.out.println("There are "+sum+" countries");
+		
+	
 	}
 
 }
