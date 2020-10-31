@@ -14,14 +14,13 @@ public class ArrayfromScanner {
 
 		// System.out.println("Enter the elements of the array:");
 		for (int i = 0; i < size; i++) {
-		System.out.println("Enter the names");
+			System.out.println("Enter the names");
 			names[i] = scan.next();
-			
-		}      
-		for(int i=0;i<names.length;i++)
-		{
-			
-			System.out.println(names[i]+" ");
+
+		}
+		for (int i = 0; i < names.length; i++) {
+
+			System.out.println(names[i] + " ");
 		}
 
 	}

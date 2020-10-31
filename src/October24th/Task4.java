@@ -40,14 +40,15 @@ sum2++;
 						
 						System.out.print(countries[i][j]+" ");
 						
-					}sum=sum+countries[i].length;
+					}
+					sum=sum+countries[i].length;
 					System.out.println();
 					System.out.println();
 
 				}
-		System.out.println("There are "+sum+" countries");
+		System.out.println("There are "+sum+" countries for foreach loop");
 		
-		System.out.println("There are "+sum2+" countries");
+		System.out.println("There are "+sum2+" countries for loop");
 
 	}
 

@@ -11,7 +11,7 @@ public class RandomExamples {
 			System.out.print(num[i]+" ");
 		}
  //we cant loop backward using enhanced for loop.
-		//it starts from beginning of the loop and stops at the end.
+//it starts from beginning of the loop and stops at the end.
 	}
 
 }
